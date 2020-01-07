@@ -6,6 +6,7 @@
     "fmt": "prettier --write \"src/**/*.ts\"",
     "start": "cross-env TR_MAIL_DEBUG=true TR_CORS_ENABLED=true nodemon",
     "build": "tsc && copyfiles src/templates/**/* ../dist",
+    "pm2": "pm2 start --name traduora-api dist/main.js",
     "clean": "rimraf ../dist/src ../dist/test",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "cross-env NODE_ENV=test jest",
