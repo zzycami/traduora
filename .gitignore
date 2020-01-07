@@ -9,3 +9,6 @@ build/
 i18n/*
 
 .DS_STORE
+api/package-lock.json
+webapp/package-lock.json
+package-lock.json

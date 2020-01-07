@@ -6,7 +6,7 @@ default:
   host: localhost
   port: 3306
   username: root
-  password: ''
+  password: 'LBDYHBYC1clybc$'
   database: tr_dev
   synchronize: false
   logging: true
