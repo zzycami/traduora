@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "traduora",
+      "script": "npm",
+      "args" : "start"
+    }
+  ]
+}
